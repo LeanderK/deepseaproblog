@@ -7,5 +7,6 @@ setup(
     package_dir={
         'deepsea': '.',
     },
-    author='Lennert De Smet, Pedro Zuidberg Dos Martires, Robin Manhaeve, Giuseppe Marra, Angelika Kimmig, Luc De Raedt'
+    author='Lennert De Smet, Pedro Zuidberg Dos Martires, Robin Manhaeve, Giuseppe Marra, Angelika Kimmig, Luc De Raedt',
+    license_files = ('LICENSE',),
 )
