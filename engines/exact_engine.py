@@ -105,7 +105,7 @@ class ExactEngine(Engine):
         self.engine = DefaultEngine()
         self.supported_distributions = {"normal", "gamma", "beta", "uniform", "dirichlet", "poisson", "student",
                                         "logistic", "exponential", "generalisednormal", "categorical", "bernoulli",
-                                        "gumbelsoftmax", "vae_decoder"}
+                                        "gumbelsoftmax", "vae_decoder", "multivariatenormal"}
 
     def prepare(self, db):
         translated = SimpleProgram()
